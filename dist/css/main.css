@@ -1,0 +1,252 @@
+/* Imports ================================= */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+form {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+form .text-inputs {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+form .pricing .price {
+	padding: 1%;
+}
+
+form .open {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+ul li {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	padding: 10px;
+	border: solid 1px black;
+}
+
+@media screen and (min-width: 768px) {
+	ul li {
+		flex-direction: row;
+	}
+}
+
+ul li .review-container {
+	display: flex;
+	width: 100%;
+}
+
+ul li .review-container .info-container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+	ul li .review-container .info-container {
+		width: 70%;
+	}
+}
+
+ul li .review-container .info-container .heading-container {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+ul li .review-container .info-container .heading-container a {
+	text-decoration: none;
+	color: black;
+	padding-bottom: 2.5%;
+}
+
+ul li .review-container .info-container .heading-container a h2 {
+	font-size: 2rem;
+}
+
+ul li .review-container .info-container .heading-container .stats-container {
+	padding-bottom: 2.5%;
+}
+
+ul li .review-container .info-container .heading-container .stats-container span {
+	padding-right: 3%;
+	font-size: 1.5rem;
+}
+
+ul li .review-container .info-container .cat-container {
+	padding-bottom: 2.5%;
+}
+
+ul li .review-container span {
+	padding-bottom: 2.5%;
+}
+
+ul li .review-container img {
+	-o-object-fit: cover;
+	   object-fit: cover;
+	min-width: 250px;
+	min-height: 250px;
+	max-width: 250px;
+	max-height: 250px;
+	border: solid 1px black;
+	background-color: #eee;
+}
+
+@media screen and (min-width: 768px) {
+	ul li .review-container img {
+		margin-left: 20px;
+		min-width: 250px;
+	}
+}
+
+/*# sourceMappingURL=main.css.map */

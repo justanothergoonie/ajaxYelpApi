@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>¯\_(ツ)_/¯</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="dist/css/main.css" />
+	</head>
+
+	<body>
+		<form action="">
+			<div class="text-inputs">
+				<input
+					type="text"
+					name="location"
+					placeholder="Location"
+					required
+					value="atalanta"
+				/>
+				<input type="text" name="Restaurant" placeholder="Restaurant" />
+
+				<select name="sort-by">
+					<option value="best_match">Best Match</option>
+					<option value="rating">Rating</option>
+					<option value="review_count">Review Count</option>
+					<option value="distance">Distance</option>
+				</select>
+			</div>
+			<div class="pricing">
+				<h2>Price</h2>
+				<div class="price">
+					<span>$</span
+					><input
+						type="checkbox"
+						value="1"
+						name="price"
+						class="pricing"
+					/>
+				</div>
+				<div class="price">
+					<span>$$</span
+					><input
+						type="checkbox"
+						value="2"
+						name="price"
+						class="pricing"
+					/>
+				</div>
+				<div class="price">
+					<span>$$$</span
+					><input
+						type="checkbox"
+						value="3"
+						name="price"
+						class="pricing"
+					/>
+				</div>
+				<div class="price">
+					<span>$$$$</span
+					><input
+						type="checkbox"
+						value="4"
+						name="price"
+						class="pricing"
+					/>
+				</div>
+
+				<!-- <label for="$">$</label>
+				
+				<label for="$$">$$</label>
+				
+				<label for="$$$">$$$</label>
+				
+				<label for="$$$$">$$$$</label>
+				 -->
+			</div>
+			<div class="open">
+				<label for="open">Open Now</label>
+				<input type="checkbox" name="open" />
+			</div>
+
+			<button type="submit" name="search">submit</button>
+		</form>
+
+		<h2>Results</h2>
+		<ul class="results"></ul>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+		<script src="dist/js/yelp-api.js"></script>
+		<script src="dist/js/main.js"></script>
+	</body>
+</html>

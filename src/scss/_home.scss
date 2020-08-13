@@ -1,0 +1,121 @@
+// .results {
+// 	@include flex-center;
+// 	flex-direction: column;
+// 	.review-container {
+// 		// @include flex-center;
+// 		// flex-direction: row;
+// 		// width: 50%;
+// 		.info-container {
+// 			// @include flex-center;
+// 			// flex-direction: column;
+// 			.heading-container {
+// 				// @include flex-center;
+// 			}
+// 		}
+// 	}
+// }
+
+// img {
+// 	object-fit: cover;
+// 	min-width: 90%;
+// 	min-height: 250px;
+// 	max-width: 250px;
+// 	max-height: 250px;
+// 	border: solid 1px black;
+
+// 	background-color: #eee;
+// 	@include bp-med {
+// 		margin-left: 20px;
+// 		min-width: 250px;
+// 	}
+// }
+form {
+	// @include flex-center;
+	flex-direction: column;
+	.text-inputs {
+		@include flex-center;
+	}
+	// input {
+	// 	// width: 170px;
+	// 	// margin: 10px 0px;
+	// }
+	.pricing {
+		// @include flex-center;
+		.price {
+			// @include flex-center;
+			padding: 1%;
+		}
+	}
+	.open {
+		@include flex-center;
+	}
+}
+
+ul {
+	@include flex-center;
+	flex-direction: column;
+	li {
+		display: flex;
+		flex-direction: column;
+		width: 75%;
+		padding: 10px;
+		border: solid 1px black;
+		@include bp-med {
+			flex-direction: row;
+		}
+		.review-container {
+			display: flex;
+			width: 100%;
+			.info-container {
+				display: flex;
+				flex-direction: column;
+				width: 80%;
+				@include bp-med {
+					width: 70%;
+				}
+				.heading-container {
+					// @include flex-center;
+					display: flex;
+					flex-direction: column-reverse;
+
+					a {
+						text-decoration: none;
+						color: black;
+						padding-bottom: 2.5%;
+						h2 {
+							font-size: 2rem;
+						}
+					}
+					.stats-container {
+						padding-bottom: 2.5%;
+
+						span {
+							padding-right: 3%;
+							font-size: 1.5rem;
+						}
+					}
+				}
+				.cat-container {
+					padding-bottom: 2.5%;
+				}
+			}
+			span {
+				padding-bottom: 2.5%;
+			}
+			img {
+				object-fit: cover;
+				min-width: 250px;
+				min-height: 250px;
+				max-width: 250px;
+				max-height: 250px;
+				border: solid 1px black;
+
+				background-color: #eee;
+				@include bp-med {
+					margin-left: 20px;
+					min-width: 250px;
+				}
+			}
+		}
+	}
+}
