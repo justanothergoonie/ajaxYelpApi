@@ -140,24 +140,50 @@ form {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	width: 100%;
 }
 
 form .text-inputs {
 	display: flex;
-	align-content: center;
+	width: 50%;
+}
+
+form .pricing {
+	display: flex;
 	align-items: center;
-	justify-content: center;
+	width: 50%;
+	padding-top: 1%;
+}
+
+form .pricing h2 {
+	padding-right: 1%;
 }
 
 form .pricing .price {
-	padding: 1%;
+	display: flex;
+	align-items: center;
+	width: 15%;
+}
+
+form .pricing .price input {
+	margin: 0;
+	width: 25%;
 }
 
 form .open {
+	width: 50.3%;
 	display: flex;
-	align-content: center;
 	align-items: center;
-	justify-content: center;
+	padding-top: 1%;
+}
+
+form button {
+	background-color: #c41200;
+	color: white;
+	border-radius: 53px;
+	border-color: #c41200;
+	width: 15%;
+	font-size: 1.4rem;
 }
 
 ul {

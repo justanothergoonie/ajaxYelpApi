@@ -30,24 +30,51 @@
 // 	}
 // }
 form {
-	// @include flex-center;
+	@include flex-center;
 	flex-direction: column;
+	width: 100%;
 	.text-inputs {
-		@include flex-center;
+		display: flex;
+		width: 50%;
 	}
 	// input {
 	// 	// width: 170px;
 	// 	// margin: 10px 0px;
 	// }
 	.pricing {
-		// @include flex-center;
+		display: flex;
+		align-items: center;
+		width: 50%;
+		padding-top: 1%;
+		h2 {
+			padding-right: 1%;
+		}
+		// flex-direction: row;
 		.price {
-			// @include flex-center;
-			padding: 1%;
+			display: flex;
+			align-items: center;
+
+			width: 15%;
+			// padding-right: 2%;
+			input {
+				margin: 0;
+				width: 25%;
+			}
 		}
 	}
 	.open {
-		@include flex-center;
+		width: 50.3%;
+		display: flex;
+		align-items: center;
+		padding-top: 1%;
+	}
+	button {
+		background-color: #c41200;
+		color: white;
+		border-radius: 53px;
+		border-color: #c41200;
+		width: 15%;
+		font-size: 1.4rem;
 	}
 }
 
