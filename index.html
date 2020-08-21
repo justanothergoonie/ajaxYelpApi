@@ -18,8 +18,14 @@
 					name="location"
 					placeholder="Location"
 					required
+					value="atlanta"
 				/>
-				<input type="text" name="Restaurant" placeholder="Restaurant" />
+				<input
+					type="text"
+					name="bidniz"
+					placeholder="bidniz"
+					value="Denny's"
+				/>
 
 				<select name="sort-by">
 					<option value="best_match">Best Match</option>
@@ -83,11 +89,16 @@
 
 			<button type="submit" name="search">Submit</button>
 		</form>
-
+		<div id="map"></div>
 		<ul class="results"></ul>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+		<script src="dist/js/google-map.js"></script>
 		<script src="dist/js/yelp-api.js"></script>
 		<script src="dist/js/main.js"></script>
+		<script
+			defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN8YgsGRhmpj0vSQlLl5EViZa3MGbrjr8&callback=initMap"
+		></script>
 	</body>
 </html>

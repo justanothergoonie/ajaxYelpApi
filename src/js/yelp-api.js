@@ -1,7 +1,3 @@
-// expected usage:
-// const api = new YelpApi()
-//api.search(parameters)
-
 class YelpApi {
 	API_URL_BASE = 'https://circuslabs.net/proxies/yelp-fusion-proxy/';
 

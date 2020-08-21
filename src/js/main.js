@@ -14,7 +14,7 @@ class Main {
 	handleSearch = (event) => {
 		event.preventDefault();
 
-		const restaurantEl = document.querySelector('[name="Restaurant"]');
+		const restaurantEl = document.querySelector('[name="bidniz"]');
 		const restaurantTerm = restaurantEl.value;
 
 		const locationEl = document.querySelector('[name="location"]');

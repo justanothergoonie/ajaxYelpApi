@@ -12,9 +12,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-// expected usage:
-// const api = new YelpApi()
-//api.search(parameters)
 var YelpApi = /*#__PURE__*/function () {
   function YelpApi() {
     _classCallCheck(this, YelpApi);

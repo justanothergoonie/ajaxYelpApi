@@ -15,7 +15,7 @@ var Main = /*#__PURE__*/function () {
 
     _defineProperty(this, "handleSearch", function (event) {
       event.preventDefault();
-      var restaurantEl = document.querySelector('[name="Restaurant"]');
+      var restaurantEl = document.querySelector('[name="bidniz"]');
       var restaurantTerm = restaurantEl.value;
       var locationEl = document.querySelector('[name="location"]');
       var locationTerm = locationEl.value;

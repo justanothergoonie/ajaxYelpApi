@@ -275,4 +275,11 @@ ul li .review-container img {
 	}
 }
 
+#map {
+	border: 1px solid black;
+	height: 400px;
+	width: 90%;
+	margin: 1rem auto;
+}
+
 /*# sourceMappingURL=main.css.map */
